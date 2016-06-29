@@ -4,7 +4,8 @@ import junit.framework.TestCase
 
 class SwotTest : TestCase() {
     fun testSwot() {
-        assertEquals (true , isAcademic("lreilly@stanford.edu"))          
+        assertEquals (true , isAcademic("lreilly@stanford.edu"))  
+        assertEquals (true , isAcademic("mehta.kewal06@gmail.com"))  
         assertEquals (true , isAcademic("LREILLY@STANFORD.EDU"))          
         assertEquals (true , isAcademic("Lreilly@Stanford.Edu"))          
         assertEquals (true , isAcademic("lreilly@slac.stanford.edu"))     
